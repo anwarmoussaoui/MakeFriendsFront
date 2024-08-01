@@ -1,0 +1,47 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.16.1",
+    "@types/socket.io-client": "^3.0.0",
+    "axios": "^1.7.2",
+    "cookie": "^0.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "mdb-react-ui-kit": "^8.0.0",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-dropzone": "^14.2.3",
+    "react-router-dom": "^6.24.1",
+    "react-stomp": "^5.1.0",
+    "socket.io-client": "^4.7.5",
+    "sockjs": "^0.3.24",
+    "sockjs-client": "^1.6.1",
+    "sweetalert2": "^11.12.2",
+    "websocket": "^1.0.35"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-dropzone": "^5.1.0",
+    "@types/sockjs-client": "^1.5.4",
+    "@types/stompjs": "^2.3.9",
+    "daisyui": "^4.12.10",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "next-router-mock": "^0.9.13",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

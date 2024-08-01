@@ -1,0 +1,19 @@
+.scroll {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.container {
+    display: flex;
+    flex-shrink: 0;
+    padding: 10px;
+    background: #f5f5f5;
+}
+
+.container input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Optional: Adds some space between input and other content */
+}
